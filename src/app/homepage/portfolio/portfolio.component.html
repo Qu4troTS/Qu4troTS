@@ -1,0 +1,12 @@
+<div class="portfolio" *ngIf="portfolio?.categories?.length > 0">
+  <h1 class="text-center">Lorem ipsum</h1>
+
+  <md-tab-group dynamicHeight>
+    <md-tab
+      label="{{ category.title }}"
+      *ngFor="let category of portfolio?.categories">
+      <qu4tro-projects [projects]="portfolio[category.id]"></qu4tro-projects>
+    </md-tab>
+  </md-tab-group>
+
+</div>

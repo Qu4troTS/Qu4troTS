@@ -1,0 +1,46 @@
+{
+	"categories": [
+		{
+			"id": "sites",
+			"title": "Sites"
+		},
+		{
+			"id": "systems",
+			"title": "Sistemas"
+		}
+	],
+	"sites": [
+		{
+			"title": "Ipsum 1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		},
+		{
+			"title": "Ipsum 2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		},
+		{
+			"title": "Ipsum 3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		}
+	],
+	"systems": [
+		{
+			"title": "Ipsum 4",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		},
+		{
+			"title": "Ipsum 5",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		},
+		{
+			"title": "Ipsum 6",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quasi nihil numquam tempore praesentium?",
+			"icon": "http://placehold.it/250x150"
+		}
+	]
+}

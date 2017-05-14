@@ -1,0 +1,19 @@
+<div class="row small-up-2 medium-up-3 large-up-4 align-center">
+
+  <div class="columns" *ngFor="let project of projects">
+
+    <md-card>
+      <md-card-header>
+        <md-card-title>{{ project.title }}</md-card-title>
+      </md-card-header>
+
+      <md-card-content>
+        <div class="text-justify" [innerHTML]="project.description"></div>
+      </md-card-content>
+
+      <img md-card-image src="{{ project.icon }}">
+    </md-card>
+
+  </div>
+
+</div>

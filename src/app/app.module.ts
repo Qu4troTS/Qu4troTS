@@ -1,3 +1,4 @@
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomepageService } from '../services/homepage.service';
 import { MaterialModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,6 +12,8 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { HomeComponent } from './homepage/home/home.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ServicesComponent } from './homepage/services/services.component';
+import { PortfolioComponent } from './homepage/portfolio/portfolio.component';
+import { ProjectsComponent } from './homepage/portfolio/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,8 @@ import { ServicesComponent } from './homepage/services/services.component';
     HomeComponent,
     ToolbarComponent,
     ServicesComponent,
+    PortfolioComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,6 +31,7 @@ import { ServicesComponent } from './homepage/services/services.component';
     HttpModule,
 
     MaterialModule,
+    BrowserAnimationsModule,
 
     AppRoutingModule
   ],

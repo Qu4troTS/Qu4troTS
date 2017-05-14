@@ -16,4 +16,8 @@ export class HomepageService {
     return this.http.get(this.baseUrl + 'services.json');
   }
 
+  listPortfolio() {
+    return this.http.get(this.baseUrl + 'portfolio.json');
+  }
+
 }
