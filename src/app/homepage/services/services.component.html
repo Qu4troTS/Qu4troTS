@@ -1,0 +1,25 @@
+<div class="services" *ngIf="this.services.length > 0">
+  <h1 class="text-center">Lorem ipsum</h1>
+
+  <div class="container">
+    <div class="row small-up-2">
+      <div class="column" *ngFor="let service of services">
+
+      <md-card>
+        <md-card-header>
+          <div md-card-avatar>
+            <md-icon>{{ service.icon }}</md-icon>
+          </div>
+          <md-card-title>{{ service.title }}</md-card-title>
+        </md-card-header>
+
+        <md-card-content>
+          <div class="text-justify" [innerHTML]="service.description"></div>
+        </md-card-content>
+      </md-card>
+
+      </div>
+
+    </div>
+  </div>
+</div>
