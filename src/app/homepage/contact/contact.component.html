@@ -1,0 +1,26 @@
+<div class="container" *ngIf="contactData.length > 0">
+
+  <h1 class="text-center">Lorem ipsum</h1>
+  <div class="row small-up-1 medium-up-2 align-middle">
+    <div class="column">
+
+      <div *ngFor="let contact of contactData">
+        <div>
+          <b>{{ contact.title }}</b>
+        </div>
+        <div>
+          Telefone: <a href="tel:{{ contact.phone }}">{{ contact.phone }}</a>
+        </div>
+        <div>
+          Email: <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="column text-center">
+      <button md-raised-button>Contato</button>
+    </div>
+
+  </div>
+</div>

@@ -20,4 +20,8 @@ export class HomepageService {
     return this.http.get(this.baseUrl + 'portfolio.json');
   }
 
+  listContactData() {
+    return this.http.get(this.baseUrl + 'contact.json');
+  }
+
 }
