@@ -16,6 +16,7 @@ import { PortfolioComponent } from './homepage/portfolio/portfolio.component';
 import { ProjectsComponent } from './homepage/portfolio/projects/projects.component';
 import { AboutComponent } from './homepage/about/about.component';
 import { ContactComponent } from './homepage/contact/contact.component';
+import { FooterComponent } from './homepage/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactComponent } from './homepage/contact/contact.component';
     ProjectsComponent,
     AboutComponent,
     ContactComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
