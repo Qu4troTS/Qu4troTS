@@ -8,11 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  paragraphs: Array<string>;
+
   constructor(
     private homePageSvc: HomepageService,
-  ) { }
+  ) {
+    this.loadContactData();
+  }
 
   ngOnInit() {
+  }
+
+  loadContactData() {
+    this.paragraphs = [];
+    this.homePageSvc.listAboutData().subscribe(data => this.paragraphs = data.json());
   }
 
 }

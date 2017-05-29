@@ -1,8 +1,8 @@
 <div class="services" *ngIf="this.services.length > 0">
-  <h1 class="text-center">Lorem ipsum</h1>
+  <h1 class="text-center">Nossos serviços</h1>
 
   <div class="container">
-    <div class="row small-up-2">
+    <div class="row small-up-1 medium-up-2 large-up-3">
       <div class="column" *ngFor="let service of services">
 
       <md-card>
@@ -10,7 +10,7 @@
           <div md-card-avatar>
             <md-icon>{{ service.icon }}</md-icon>
           </div>
-          <md-card-title>{{ service.title }}</md-card-title>
+          <md-card-title class="text-center">{{ service.title }}</md-card-title>
         </md-card-header>
 
         <md-card-content>

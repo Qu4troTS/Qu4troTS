@@ -24,4 +24,8 @@ export class HomepageService {
     return this.http.get(this.baseUrl + 'contact.json');
   }
 
+  listAboutData() {
+    return this.http.get(this.baseUrl + 'about.json');
+  }
+
 }

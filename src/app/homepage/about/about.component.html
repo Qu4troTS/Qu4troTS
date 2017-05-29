@@ -1,10 +1,9 @@
 <div class="about">
+  <h1 class="text-center">Sobre nós</h1>
 
-  <div class="row align-center align-middle">
+  <div class="row align-center align-middle small-up-1 medium-up-2">
     <div class="column text-justify">
-      <h2 class="text-center">Lorem</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima commodi quasi possimus laboriosam expedita excepturi maxime, cupiditate repellendus veritatis, quia quod pariatur, iste ea soluta hic libero optio eos ullam.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima commodi quasi possimus laboriosam expedita excepturi maxime, cupiditate repellendus veritatis, quia quod pariatur, iste ea soluta hic libero optio eos ullam.</p>
+      <p *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>
     </div>
     <div class="column text-center">
       <img src="http://placehold.it/400x300">
