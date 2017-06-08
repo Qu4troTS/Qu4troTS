@@ -1,3 +1,4 @@
+import { UtilsService } from '../../../../services/utils.service';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -10,9 +11,15 @@ export class ProjectsComponent implements OnInit {
   @Input()
   projects: Array<any>;
 
-  constructor() { }
+  constructor(
+    private utilsSvc: UtilsService,
+  ) { }
 
   ngOnInit() {
+  }
+
+  trim(text: string) {
+    return this.utilsSvc.trim(text);
   }
 
 }

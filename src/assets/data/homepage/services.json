@@ -1,37 +1,51 @@
 [
     {
-        "title": "Desenvolvimento de sistemas",
-        "description": "<p>Sistemas web, apps mobile, aplicações desktop, serviços e integrações. </p><p>Desenvolvimento de projetos e sistemas de informação customizados de acordo com a necessidade do cliente.</p> <p>Nossa expertise na área de negócios nos permite propor soluções práticas e eficientes para cada modelo de negócio.</p> <p>Desenvolvemos sistemas com os mais diversos objetivos, como atendimento à uma demanda legal, aumento de produtividade, redução de custos e controles diversos.</p>",
-        "icon": "shopping_cart"
+        "title": "Consultoria",
+        "items": [
+            {
+                "title": "Consultoria em TI",
+                "description": "<p>Consultoria em tecnologia da informação para ajudar a sua empresa na tomada de decisão de investimentos ou melhor aproveitamento dos recusos de TI, visando a melhoria nos processos, aumento da produtividade e redução de custos. </p> <p>Infraestrutura, aplicações, recusos de hardware ou desenvolvimento de sistemas, nossa consultoria especializada ajudará a sua empresa a tomar a melhor decisão.</p>",
+                "fa_icon": "laptop"
+            },
+            {
+                "title": "Consultoria de Negócios",
+                "description": "<p>Em nosso time, temos profissionais das mais diversas áreas de negócios provenientes de grandes empresas multinacionais. Temos profissionais das mais diversas áreas do negócio como RH, Finanças, Varejo, Controladoria entre outras.</p> <p>Se você está começando um negócio, ou pretende alavancar um negócio já em andamento, implementar processos, reduzir custos ou aumentar os controles de sua empresa, a Qu4tro tem um time pronto para te ajudar.</p>",
+                "fa_icon": "users"
+            }
+        ]
     },
     {
-        "title": "Desenvolvimento de Sites",
-        "description": "<p>Criação de portais, e-commerce, sites institucionais e de serviços para a sua empresa.</p><p>A Qu4tro conta com profissionais experientes na área de desenvolvimento web, e oferece serviços de qualidade para que sua empresa se destaque na rede. Desenvolvemos sites personalizados de acordo com a sua necessidade.</p>",
-        "icon": "shopping_cart"
-    },
-    {
-        "title": "Hospedagem",
-        "description": "<p>Se você tem um site, sistema na nuvem, loja virtual ou um banco de dados, e procura um lugar seguro, com disponibilidade e suporte, a Qu4tro pode te ajudar. Fazemos também manutenções em sistes e sistemas web para que você possa manter o foco total em seu negócio.</p>",
-        "icon": "shopping_cart"
-    },
-    {
-        "title": "Manutenção de Sistemas",
-        "description": "<p>A Qu4tro realiza manutenções em sistemas próprios ou legados. Se você precisa de uma manutenção preventiva, preditiva ou evolutiva em seus sistemas, conte com a gente.</p>",
-        "icon": "shopping_cart"
-    },
-    {
-        "title": "Criação de conteúdo",
-        "description": "<p>Temos em nosso portifólio de serviços a criação de conteúdo para a sua empresa. Criamos conteúdos para sites, blogs e redes sociais de acordo com a área de atuação de sua empresa. </p> <p>Caso você precise de uma campanha de marketing ou ação midiática, temos parceiros reconhecidos no mercado de marketing de ideias para atender sua necessidade.</p>",
-        "icon": "shopping_cart"
-    },
-    {
-        "title": "Consultoria em TI",
-        "description": "<p>Consultoria em tecnologia da informação para ajudar a sua empresa na tomada de decisão de investimentos ou melhor aproveitamento dos recusos de TI, visando a melhoria nos processos, aumento da produtividade e redução de custos. </p> <p>Infraestrutura, aplicações, recusos de hardware ou desenvolvimento de sistemas, nossa consultoria especializada ajudará a sua empresa a tomar a melhor decisão.</p>",
-        "icon": "shopping_cart"
-    },
-    {
-        "title": "Consultoria de Negócios",
-        "description": "<p>Em nosso time, temos profissionais das mais diversas áreas de negócios provenientes de grandes empresas multinacionais. Temos profissionais das mais diversas áreas do negócio como RH, Finanças, Varejo, Controladoria entre outras.</p> <p>Se você está começando um negócio, ou pretende alavancar um negócio já em andamento, implementar processos, reduzir custos ou aumentar os controles de sua empresa, a Qu4tro tem um time pronto para te ajudar.</p>",
-        "icon": "shopping_cart"
+        "items": [
+            {
+                "title": "Desenvolvimento de sistemas",
+                "heading": "Sistemas web, apps mobile, aplicações desktop, serviços e integrações",
+                "description": "<p>Desenvolvimento de projetos e sistemas de informação customizados de acordo com a necessidade do cliente.</p> <p>Nossa expertise na área de negócios nos permite propor soluções práticas e eficientes para cada modelo de negócio.</p> <p>Desenvolvemos sistemas com os mais diversos objetivos, como atendimento à uma demanda legal, aumento de produtividade, redução de custos e controles diversos.</p>",
+                "fa_icon": "cogs"
+            },
+            {
+                "title": "Desenvolvimento de Sites",
+                "heading": "Criação de portais, e-commerce, sites institucionais e de serviços para a sua empresa",
+                "description": "<p>A Qu4tro conta com profissionais experientes na área de desenvolvimento web, e oferece serviços de qualidade para que sua empresa se destaque na rede. Desenvolvemos sites personalizados de acordo com a sua necessidade.</p>",
+                "fa_icon": "globe"
+            },
+            {
+                "title": "Hospedagem",
+                "heading": "Garantia de disponibilidade do seu site, sistema, loja virtual ou banco de dados",
+                "description": "<p>Se você tem um site, sistema na nuvem, loja virtual ou um banco de dados, e procura um lugar seguro, com disponibilidade e suporte, a Qu4tro pode te ajudar. Fazemos também manutenções em sistes e sistemas web para que você possa manter o foco total em seu negócio.</p>",
+                "icon": "cloud_queue"
+            },
+            {
+                "title": "Manutenção de Sistemas",
+                "heading": "A Qu4tro realiza manutenções em sistemas próprios ou legados",
+                "description": "<p>Se você precisa de uma manutenção preventiva, preditiva ou evolutiva em seus sistemas, conte com a gente.</p>",
+                "icon": "build"
+            },
+            {
+                "title": "Criação de conteúdo",
+                "heading": "Temos em nosso portifólio de serviços a criação de conteúdo para a sua empresa",
+                "description": "<p>Criamos conteúdos para sites, blogs e redes sociais de acordo com a área de atuação de sua empresa. </p> <p>Caso você precise de uma campanha de marketing ou ação midiática, temos parceiros reconhecidos no mercado de marketing de ideias para atender sua necessidade.</p>",
+                "icon": "lightbulb_outline"
+            }
+        ]
     }
 ]

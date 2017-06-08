@@ -8,7 +8,7 @@
       </md-card-header>
 
       <md-card-content>
-        <div class="text-justify" [innerHTML]="project.description"></div>
+        <div class="text-justify" [innerHTML]="trim(project.description)"></div>
       </md-card-content>
 
       <img md-card-image src="{{ project.icon }}">

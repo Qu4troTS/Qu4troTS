@@ -1,0 +1,28 @@
+<div class="services" *ngIf="this.services.length > 0">
+  <h1 class="text-center">Nossos serviços</h1>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="column">
+        <md-list>
+          <md-list-item
+            [ngClass]="{active: serviceShown == index}"
+            (click)="serviceShown = index"
+            *ngFor="let service of services; let index = index">
+            <md-icon md-list-icon> {{ service.icon }} </md-icon>
+            <p md-line>
+              <a> {{ service.title }} </a>
+            </p>
+          </md-list-item>
+        </md-list>
+      </div>
+
+      <div class="column">
+        <div class="text-justify"
+          [innerHTML]="services[serviceShown].description"></div>
+      </div>
+
+    </div>
+  </div>
+</div>

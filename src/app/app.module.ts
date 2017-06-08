@@ -1,5 +1,6 @@
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomepageService } from '../services/homepage.service';
+import { UtilsService } from '../services/utils.service';
 import { MaterialModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -11,7 +12,8 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { HomeComponent } from './homepage/home/home.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
-import { ServicesComponent } from './homepage/services/services.component';
+import { ServicesComponent as ServicesHomeComponent } from './homepage/services/services.component';
+import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './homepage/portfolio/portfolio.component';
 import { ProjectsComponent } from './homepage/portfolio/projects/projects.component';
 import { AboutComponent } from './homepage/about/about.component';
@@ -24,6 +26,7 @@ import { FooterComponent } from './homepage/footer/footer.component';
     HomepageComponent,
     HomeComponent,
     ToolbarComponent,
+    ServicesHomeComponent,
     ServicesComponent,
     PortfolioComponent,
     ProjectsComponent,
@@ -43,6 +46,7 @@ import { FooterComponent } from './homepage/footer/footer.component';
   ],
   providers: [
     HomepageService,
+    UtilsService,
   ],
   bootstrap: [AppComponent]
 })
